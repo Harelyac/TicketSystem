@@ -13,21 +13,22 @@ public class ConfigurationTicket implements ITicket, ITicketSeverity{
 
     @Override
     public int getId() {
-        return 0;
+        return ticketId;
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return description;
     }
 
     @Override
     public String getResolution() {
-        return null;
+        return resolution;
     }
+
 
     @Override
     public Severity getSeverity() {
-        return null;
+        return severity;
     }
 }

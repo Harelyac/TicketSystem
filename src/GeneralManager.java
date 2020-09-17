@@ -47,7 +47,4 @@ public class GeneralManager implements ITicketManager{
     public Collection<ITicket> getTickets() {
         return tickets.values();
     }
-
-
-
 }
